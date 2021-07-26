@@ -18,7 +18,7 @@ casuali()
 
 // In seguito deve chiedere all’utente (100 - 16) volte di inserire un numero alla volta, sempre compreso tra 1 e 100.
 var numUtente = [];
-while (numUtente.length < 100 - 90) {
+while (numUtente.length < 100 - 16) {
     var sceltaUtente = parseInt(prompt("iserisci un numero"));
     if (numUtente.includes(sceltaUtente) == false) {
         numUtente.push(sceltaUtente); 
