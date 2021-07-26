@@ -18,7 +18,7 @@ casuali()
 
 // In seguito deve chiedere all’utente (100 - 16) volte di inserire un numero alla volta, sempre compreso tra 1 e 100.
 var numUtente = [];
-while (numUtente.length < 100 - 16) {
+while (numUtente.length < 100 - 90) {
     var sceltaUtente = parseInt(prompt("iserisci un numero"));
     if (numUtente.includes(sceltaUtente) == false) {
         numUtente.push(sceltaUtente); 
@@ -29,6 +29,7 @@ while (numUtente.length < 100 - 16) {
 }
 console.log(numUtente);
 var punteggio = numUtente.length;
+var operazione = 0;
 // Al termine della partita il software deve comunicare il punteggio, cioè il numero di volte che l’utente ha inserito un numero consentito.
 switch (operazione) {
    case 1:
